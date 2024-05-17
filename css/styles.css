@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+
+body{ background-color: white;
+}
+.letra{
+    padding-left: 30px;
+    
+}
+.deporte{
+    width: 100%;
+    
+}
+
+.carousel-item{
+    max-height: 700px;
+
+}
+.primeros-titulos{
+    background-color:#A1A6B4;
+    border: solid 1px #000100;
+}
+.titulos{
+    color:#000100 ;
+    text-align: center;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+span{
+    
+    background-color: #A1A6B4;
+
+}
+/*Nosotros*/
+.Nosotros{
+    background-color: white;
+}
+
+.titulo{
+    text-align: center;
+    background-color: #A1A6B4;
+    color: white;
+    font-size: 3rem;
+
+}
+.somos{
+    text-align: center;
+}
+
+.primera-presentacion{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+    grid-template-areas: 
+    "imagen imagen imagen"
+    "imagen imagen imagen"
+    "imagen imagen imagen"
+    "imagen imagen imagen";
+    height: 80vh;
+    
+}
+.imagen{
+    grid-area: imagen;
+    background-image: url(../img/empresa.jpg);
+    background-repeat:round;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.segundo-texto{
+    text-align: center;
+    background-color: #A1A6B4;
+    color: white;
+    font-size: 3rem;
+    margin-top: 2px;
+    border: solid 3px black;
+}
+
+
+.segunda-presentacion{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows:1fr;
+    grid-template-areas: 
+    "reunion pensamiento pesamiento";
+    height: 50vh;
+    width: 95vw;
+    margin-left: 33px;
+}
+
+.reunion{
+    grid-area: reunion;
+    background-image: url(../img/gente.jpg);
+    display: flex;
+    background-repeat: round;
+}
+
+.pensamiento{
+    grid-area: pensamiento;
+    background-image: url(../img/chica.jpg);
+    background-repeat:round;
+    display: flex;
+    margin-left: 2px;
+    padding: 15px;
+    
+}
+.tercera-presentacion{
+    text-align: center;
+    background-color: #A1A6B4;
+    color: white;
+    font-size: 3rem;
+    margin-top: 2px;
+}
+
+.ultima{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows:1fr;
+    height: 60vh;
+    grid-template-areas:
+    "zapas negocio negocio";
+    padding-left: 15px;
+}
+.zapas{
+    grid-area: zapas;
+    background-image: url(../img/zapatillas.jpg);
+    background-repeat: round;
+    display: flex;
+    padding-left: 2px;
+    margin-bottom: 50px;
+}
+
+.negocio{
+    grid-area:negocio;
+    background-image: url(../img/negocio.jpg);
+    background-repeat: round;
+    margin-bottom: 50px;
+}
+
+.redes-1{
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    width: 3%;
+    right: 80px;
+}
+
+.retoque{
+    background-color: #1b1b1b;
+    padding: 70px;
+    margin-top: solid 2px white;
+}
+.derecho{
+    text-align: center;
+}
+
+.social{
+    color:#A1A6B4;
+    font-size: 15px;
+}
+.redes-2{
+    height: 36px;
+}
+.redes-3{
+    height: 36px;
+    padding-left: 50px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .segunda-presentacion{
+        grid-template-columns: 1fr;
+        grid-template-rows:auto;
+        grid-template-areas: 
+        "reunion"
+        "pensamiento";
+        margin-left: 10px; 
+        
+    }
+    .ultima{ 
+        grid-template-columns: 2fr;
+        grid-template-rows:auto;
+        grid-template-areas:
+        "zapas"
+        "negocio";
+        margin-right: 5px;
+        margin-bottom: 10px;}
+
+    }
+
+
+.habla{
+    background-color:#A1A6B4;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+
+.produ{
+    text-align: center;
+    background-color:#A1A6B4;
+    padding-bottom: 15px;
+}
+.sub{
+    text-align: center;
+    font-family: 20px;
+}
+
+.solo{
+    height: 285px;
+    width: 285px;
+}
+
+.aca{
+    height:190px;
+}
+.jor{
+    height: 190px;
+}
+.presenta{
+    text-align: center;
+    padding: 15px;
+    background-color:#A1A6B4 ;
+    border: 1px solid black
+}
+
+@media screen and (max-width: 768px){
+    .redes-1{
+        position: fixed;
+        bottom: 50px;
+        right: 0;
+        width: 10%;
+        right: 30px;
+    }
+    
+}
+
+/*Coctaco*/
+.pepito{
+    text-align: center;
+    margin: 15px;
+    padding-top: 15px;
+    font-size: 2rem;
+}
+
+.pum{
+    text-align: center;
+    margin: 15px;
+    padding-top: 15px;
+    font-size: 2rem;
+}
+
+.correo{
+    text-align: center;
+    margin: 15px;
+    padding-top: 15px;
+    font-size: 2rem;
+}
+
+.celular{
+    text-align: center;
+    margin: 15px;
+    padding-top: 15px;
+    font-size: 2rem;
+}
+.texto{
+    margin: 15px;
+    padding-top: 15px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.boton{
+    text-align: center;
+}
+
+.card-text{
+    text-align: center;
+}
+
+@media screen and (max-width: 2023px){
+    .col-md-2{
+        width:19rem ;
+    }
+}
+.donde{
+    text-align: center;
+    padding: 15px;
+    background-color:#A1A6B4 ;
+    border: 1px solid black
+}
+
+.primera-ubicacion{
+    font-size: 2rem;
+    text-align: center;
+    padding: 15px;
+    background-color:#A1A6B4 ;
+    border: 1px solid black
+}
+
+.mex{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;}
+
+.eeuu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.arg{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.colo{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.fra{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
