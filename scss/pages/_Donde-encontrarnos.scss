@@ -1,0 +1,64 @@
+.donde{
+    text-align: center;
+    padding: 15px;
+    background-color:$gris ;
+    border: 1px solid black
+}
+
+.bandera{
+    font-size: 2rem;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid black
+}
+.primera-ubicacion{
+    font-size: 2rem;
+    text-align: center;
+    padding: 15px;
+    background-color:$gris;
+    border: 1px solid black
+}
+
+
+.mex{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;}
+
+.eeuu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.arg{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.colo{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.fra{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}

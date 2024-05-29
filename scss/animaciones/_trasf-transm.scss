@@ -1,0 +1,18 @@
+img{
+    &.animacion{
+            transition: transform 2s ease 10ms;
+            &:hover
+              {
+                 transform: scale(1.1, 1.1);
+             }
+}
+}
+
+img{
+    &.logotipo{
+        transition: transform 2s ease 10ms;
+        &:hover{
+            transform: scale(1.1, 1.1);
+        }
+    }
+}

@@ -1,0 +1,43 @@
+@media screen and (max-width: 723px) {
+    .segunda-presentacion{
+        grid-template-columns: 1fr;
+        grid-template-rows:auto;
+        grid-template-areas: 
+        "reunion"
+        "reunion"
+        "pensamiento"
+        "pensamiento";
+        margin-left: 10px; 
+        
+        
+    }
+    .ultima{ 
+        grid-template-columns: 2fr;
+        grid-template-rows:auto;
+        grid-template-areas:
+        "zapas"
+        "negocio";
+        margin-right: 5px;
+        margin-bottom: 10px;}
+
+    }
+   
+
+    @media screen and (max-width: 768px){
+        .redes-1{
+            position: fixed;
+            bottom: 50px;
+            right: 0;
+            width: 10%;
+            right: 30px;
+        }
+        
+    }
+    @media screen and (max-width: 768px){
+        .tela{
+            width: 285px;
+        }
+        
+        
+        
+    }

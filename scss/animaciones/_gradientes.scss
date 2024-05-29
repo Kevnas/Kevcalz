@@ -1,0 +1,35 @@
+main{
+   
+    .bandera {
+        background-image: linear-gradient(to left, green, white,red);
+        height: 100px;
+     }
+      
+     .bandera-eu{
+        background-image: linear-gradient(to right, blue,red,white);
+        height: 100px;
+     }
+
+     .bandera-arg{
+        background-image: linear-gradient(to right,skyblue,white,yellow,white,skyblue);
+        height: 100px;
+     }
+
+     .bandera-colo{
+        background-image: linear-gradient(to right,yellow,blue,red);
+        height: 100px;
+     }
+
+     .bandera-fra{
+        background-image: linear-gradient(to right,blue,white,red);
+        height: 100px;
+     }
+     .bandera-ita{
+        background-image: linear-gradient(to right,green,white,red);
+        height: 100px;
+     }
+}
+
+.adidas-1{
+   background: linear-gradient(to right $gris, transparent)
+}

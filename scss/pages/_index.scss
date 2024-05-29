@@ -1,0 +1,31 @@
+.letra{
+    padding-left: 30px;
+    
+}
+.deporte{
+    width: 100%;
+}
+.carousel-item{
+    max-height: 700px;
+}
+.primeros-titulos{
+    background-color:#A1A6B4;
+    border: solid 1px #000100;
+}
+.titulos{
+    color:#000100 ;
+    text-align: center;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+span{
+    background-color:$gris;
+}
+.card-text{
+    text-align: center;
+}
